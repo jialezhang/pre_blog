@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>prezi | Geek-Jiale</title>
+  <meta name="author" content="Jiale Zhang">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="Geek-Jiale"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Geek-Jiale" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">Geek-Jiale</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+<h2 class="archive-title tag">prezi</h2>
+
+
+  
+    <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2013-05-27T18:59:17.000Z"><a href="/2013/05/27/prezi初步使用/">May 27 2013</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2013/05/27/prezi初步使用/">prezi初步使用</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>Prezi是一种软件，用官网的话来介绍</p>
+<p><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>Prezi <span class="keyword">is</span> a presentation tool <span class="keyword">that</span> helps you organize <span class="keyword">and</span> share your ideas.
+</pre></td></tr></table></figure>
+说白了就是用来做presentation的！</p>
+<ul>
+<li><p>获取Prezi</p>
+<ul>
+<li><p>到Prezi<a href="http://prezi.com/">官网</a>,直接拉到页面最下面，在最下面那坨字里面第二行中有个叫做<em>Prezi Desktop</em>的，点击进去！然后跳转了，在这个页面会有一个大大的蓝色的按钮上面写这<em>Download</em>，后面跟了一行小字，<em>Try it free for 30 days</em>，别人做的这么好，当然是要收费的啦，不过你一般都是急需，马上就用完了嘛。好啦，我们开猛击这个按钮，然后它就会按照你的PC的相应的系统来分配给你相应的应用程序。</p>
+<pre><code><figure class="highlight"><pre>  Prezi Desktop runs <span class="function_start"><span class="keyword">on</span> <span class="title">Windows</span></span> <span class="keyword">or</span> Mac. Sorry, your operating system <span class="keyword">is</span> <span class="keyword">not</span> supported.
+</pre></figure></code></pre>
+<p>  看到了么，只有windows和Mac才可以的，linunx用户就别想了。这样你就有了Prezi了！</p>
+</li>
+</ul>
+</li>
+<li><p>开始使用</p>
+<ul>
+<li>一般来说安装这个事情就没什么好说的了，来说说是怎么使用吧。我们都是用中文来表达的，但是Prezi现在对中文的支持不怎么好，如果你用英文的话，那恭喜你啦，你后面的都不用看了，而且你还可以在线使用哈。</li>
+<li>中文支持</li>
+<li><p>你可以参考下<a href="http://www.prezicn.com/viewtopic.php?id=25">这篇文章</a>,他讲的比较的详细，我就不重复造轮子了。<a href="http://blog.csdn.net/esricd/article/details/7964281">这篇文章</a>是告诉你如何让Prezi实现简体中文输入，中途要下载一个字体包,连接貌似已径失效，你可以通过<a href="http://s.yunio.com/sOpILf">这个地址</a>下载，这个是在我的<a href="https://www.yunio.com">yunio</a>上面的，你可以直接找我要。</p>
+</li>
+<li><p>中文字体的加载</p>
+<ul>
+<li>最大问题可能出现在字体这个地方。首先你将这个字体的rar包解压后把里面字体文件拷贝到你安装Prezi文件夹下面的<strong>Local/fonts</strong>目录下，如果你当时是采用默认的安装方式的应该是<strong>C:\Users[username]\AppData\Roaming\com.prezi.PreziDesktop\LocalStore\fonts</strong>;</li>
+</ul>
+</li>
+<li>中文字体的使用<ul>
+<li>在你制作prezi文件的时候，点击主编辑界面，然后按住你的<strong>Ctrl+Shift+C</strong>，然后会出现一个框框，这个里面有很多看起来比较奇怪的东西（这就是CSS，懂就算了），然后将你的字体文件，如果你是从我的yunio里面拿到的字体就应该是将文件中的前三个font-face下面的src中的url后面括号里面在两个引号里面的东西全部替换为<em>STSONG.swf</em>，就像<a href="http://blog.csdn.net/esricd/article/details/7964281">这个网站</a>上面图片展示的哪样。替换掉三个之后，点击<em>Apply</em>，成功之后就可以开始输入中文了！你就可以开始Prezi带来的舒爽地做presentation啦。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>后记<ul>
+<li>原本是想完整的写下制作的过程的，但是由于时间的限制和前人的良好的积累，完全不需要重复讲解一些东西，就成了这样啦。</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+  
+
+  <nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav>
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">Categories</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/R/">R</a><small>1</small></li>
+  
+    <li><a href="/categories/desktop/awesome/">awesome</a><small>2</small></li>
+  
+    <li><a href="/categories/desktop/">desktop</a><small>2</small></li>
+  
+    <li><a href="/categories/javascripts/">javascripts</a><small>1</small></li>
+  
+    <li><a href="/categories/prezi/">prezi</a><small>1</small></li>
+  
+    <li><a href="/categories/基因匹配/">基因匹配</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">Tags</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/Arch-awesome/">Arch awesome</a><small>1</small></li>
+  
+    <li><a href="/tags/aewsome/">aewsome</a><small>2</small></li>
+  
+    <li><a href="/tags/javascriptsmodule/">javascripts/module</a><small>1</small></li>
+  
+    <li><a href="/tags/prezi/">prezi</a><small>1</small></li>
+  
+    <li><a href="/tags/统计学基础/">统计学基础</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2013 Jiale Zhang
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+<script type="text/javascript">
+var disqus_shortname = 'jialezhang';
+
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
